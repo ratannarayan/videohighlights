@@ -263,7 +263,7 @@ async function getToken(CLIENT_ID, CLIENT_SECRET) {
       rander_jobid,
       10
     );
-
+    console.log("finalized", renderResponse.shareVideoURL);
     return renderResponse.shareVideoURL;
     
   }
